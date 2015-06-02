@@ -22,12 +22,12 @@ $(document).ready(function(){
 
 		 menuScreen: function(){
 			$('.page').hide();
-			$('nav').show();
 			$('#menu').show();
 		},
 
 		gameScreen: function(){
 			$('.page').hide();
+			$('nav').show();
 			$('#game').show();
 			$(document).keydown(function(e){
 				move = $('.big-icon').css('left');
@@ -51,11 +51,13 @@ $(document).ready(function(){
 
 		leaderScreen: function(){
 			$('.page').hide();
+			$('nav').show();
 			$('#leaderboard').show();
 		},
 
 		settingsScreen: function(){
 			$('.page').hide();
+			$('nav').show();
 			$('#settings').show();
 		}
 	});

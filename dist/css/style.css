@@ -1,19 +1,22 @@
 @font-face {
  font-family: 'PressStart2P-Regular';
-  src: url(http://tiny-pizza-server.herokuapp.com/collections/mona/PressStart2P-Regular.ttf);
+  src: url(https://dl.dropboxusercontent.com/u/53297391/PressStart2P-Regular.ttf);
 }
 
 
 html, body{
 	width: 100%;
 	margin: 0 auto;
+	height: auto;
 	/*background-color: #4F7CFF;*/
-	background-color: #187FFF;
+	background-color: #0097F8;
 	color: white;
 	font-family: 'PressStart2P-Regular';
 
 
 }
+
+
 
 body{
 	background-size: cover;
@@ -33,6 +36,7 @@ nav{
 
 .container{
 	max-width: 100%;
+	min-height: 400px;
 	margin: 0 auto;
 	padding: 0 20px 0 20px;
 }
@@ -83,7 +87,7 @@ h3{
 
 
 .icon{
-	background: url('../images/mushroom.png') no-repeat;
+	background: url('https://dl.dropboxusercontent.com/u/53297391/mushroom.png') no-repeat;
 	width: 25px;
 	height: 25px;
 	background-size: cover;
@@ -188,7 +192,7 @@ button{
 
 footer{
 	display: block;
-	background: url('../images/block.png') repeat;
+	background: url('https://dl.dropboxusercontent.com/u/53297391/block.png') repeat;
 	background-size: 50px 50px;
 	height: 50px;
 	width: 100%;
@@ -203,7 +207,7 @@ img{
 }
 
 .big-icon {
-	background: url('../images/mushroom.png') no-repeat;
+	background: url('https://dl.dropboxusercontent.com/u/53297391/mushroom.png') no-repeat;
 	width: 60px;
 	height: 60px;
 	background-size: cover;
