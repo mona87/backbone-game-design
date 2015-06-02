@@ -7,11 +7,18 @@
 html, body{
 	width: 100%;
 	margin: 0 auto;
-	background-color: #4F7CFF;
+	/*background-color: #4F7CFF;*/
+	background-color: #187FFF;
 	color: white;
 	font-family: 'PressStart2P-Regular';
-/*	background: url('http://i.imgur.com/goKnXzJ.png');
-	background-size: cover;*/
+
+
+}
+
+body{
+	background-size: cover;
+	background: url('http://www.seventeengallery.com/wp-content/uploads/2013/03/PBD-Five-in-one-Mario-Clouds.jpg');
+
 
 }
 
@@ -21,13 +28,13 @@ h1{
 
 nav{
 	padding-top: 10px;
+	display: none;
 }
 
 .container{
 	max-width: 100%;
 	margin: 0 auto;
 	padding: 0 20px 0 20px;
-
 }
 
 .navLink{
@@ -46,7 +53,7 @@ nav{
 .score{
 	display: inline-block;
 	text-align: left;
-	margin: 20px auto 0 auto;
+	margin: 10px auto 0 auto;
 	font-size: 18px;
 
 }
@@ -59,8 +66,19 @@ nav{
 
 .stats{
 
-	margin: 0 auto;
-	width: 350px;
+	margin: 80px auto auto auto;
+	max-width: 380px;
+	box-shadow: 5px 5px 0px black;
+	text-shadow: 2px 2px 0px black;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border: 3px #F38337 outset;
+	background-color: #FCCA34;
+	box-sizing: border-box;
+}
+	
+h3{
+	text-align: center;
 }
 
 
@@ -85,40 +103,41 @@ nav{
 
 .optionHolder{
 
-	width: 260px;
+	width: 300px;
 	margin: 80px auto auto auto;
+	box-shadow: 5px 5px 0px black;
+	text-shadow: 2px 2px 0px black;
+	background-color: #FCCA34;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	border: 3px #F38337 outset;
+	
 
 }
 
 .super{
 
-	font-size: 40px;
-	background-color: #C43800;
-	max-width: 500px;
+	font-size: 50px;
+	/*background-color: #C43800;*/
+	max-width: 550px;
 	margin: 0 auto;
-	padding: 30px;
-	margin-top: 30px;
-	border: 3px #FBC3B4 outset;
+	padding: 20px;
+	margin-top: 10px;
+/*	border: 3px #FBC3B4 outset;*/
 	box-shadow: 5px 5px 0px black;
 	text-shadow: 5px 5px 0px black;
-	line-height: 50px;
+	line-height: 70px;
+	border: 3px #F38337 outset;
+	background-color: #FCCA34;
 	
 }
 .title{
-	/*font-size: 65px;*/
+	font-size: 60px;
 
 
 }
 
-main{
-	/*position: relative;*/
-	/*display: block;*/
-	/*height: 300px;*/
-	/*width: 100%;*/
-	/*background-color: #572B12;*/
-	/*text-align: center;*/
-	border: 1px solid red;
-}
 
 #loading {
 	/*display: block;*/
@@ -147,11 +166,15 @@ main{
 	padding-top: 5px;
 }
 
-.scr{
+.scr-holder{
 	display: inline-block;
 	float: right;
+	
 }
 
+.scr1{
+	margin-right: 20px;
+}
 
 button{
 
@@ -179,15 +202,15 @@ img{
 	height: 150px;
 }
 
-.hi {
-    width: 150px;
-    height: 200px;
-    background: url("../images/mario.png") left center;
-    background-size:cover;
-    -webkit-animation: marioWalk .7s steps(7) infinite; /* Chrome, Safari, Opera */
-    animation: marioWalk .7s  steps(7) infinite;
-
- 
-  }
-    
+.big-icon {
+	background: url('../images/mushroom.png') no-repeat;
+	width: 60px;
+	height: 60px;
+	background-size: cover;
+	float: left; 
+	position: fixed;
+	bottom: 47px;
+  	left: 50px;
+  	right: 0;
+    }
   

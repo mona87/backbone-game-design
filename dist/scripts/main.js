@@ -22,12 +22,31 @@ $(document).ready(function(){
 
 		 menuScreen: function(){
 			$('.page').hide();
+			$('nav').show();
 			$('#menu').show();
 		},
 
 		gameScreen: function(){
 			$('.page').hide();
 			$('#game').show();
+			$(document).keydown(function(e){
+				move = $('.big-icon').css('left');
+				move = parseInt(move);
+				move-= 20;
+			
+				if (e.keyCode === 37) { 
+					$('.big-icon').css('left', move+'px');
+					$('.scr').html(move.toString());
+				}
+				else if(e.keyCode === 39){
+					move = $('.big-icon').css('left');
+					move = parseInt(move);
+					move += 20;
+					$('.big-icon').css('left', move+'px');
+					$('.scr').html(move.toString());
+				}
+			
+			});
 		},
 
 		leaderScreen: function(){
