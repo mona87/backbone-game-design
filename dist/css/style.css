@@ -1,0 +1,193 @@
+@font-face {
+ font-family: 'PressStart2P-Regular';
+  src: url(http://tiny-pizza-server.herokuapp.com/collections/mona/PressStart2P-Regular.ttf);
+}
+
+
+html, body{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #4F7CFF;
+	color: white;
+	font-family: 'PressStart2P-Regular';
+/*	background: url('http://i.imgur.com/goKnXzJ.png');
+	background-size: cover;*/
+
+}
+
+h1{
+	text-align: center;
+}
+
+nav{
+	padding-top: 10px;
+}
+
+.container{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+
+}
+
+.navLink{
+
+	color: white;
+	text-decoration: none;
+}
+.page{
+	display: none;
+	/*padding-top: 100px;*/
+	box-sizing: border-box;
+	
+	
+}
+
+.score{
+	display: inline-block;
+	text-align: left;
+	margin: 20px auto 0 auto;
+	font-size: 18px;
+
+}
+
+.name{
+
+	margin-right: 200px;
+
+}
+
+.stats{
+
+	margin: 0 auto;
+	width: 350px;
+}
+
+
+.icon{
+	background: url('../images/mushroom.png') no-repeat;
+	width: 25px;
+	height: 25px;
+	background-size: cover;
+	float: left; 
+	
+
+}
+
+.option{
+
+	margin-bottom: 20px;
+	margin-left: 45px;
+	padding-top: 5px;
+	cursor: pointer;
+
+}
+
+.optionHolder{
+
+	width: 260px;
+	margin: 80px auto auto auto;
+
+}
+
+.super{
+
+	font-size: 40px;
+	background-color: #C43800;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 30px;
+	margin-top: 30px;
+	border: 3px #FBC3B4 outset;
+	box-shadow: 5px 5px 0px black;
+	text-shadow: 5px 5px 0px black;
+	line-height: 50px;
+	
+}
+.title{
+	/*font-size: 65px;*/
+
+
+}
+
+main{
+	/*position: relative;*/
+	/*display: block;*/
+	/*height: 300px;*/
+	/*width: 100%;*/
+	/*background-color: #572B12;*/
+	/*text-align: center;*/
+	border: 1px solid red;
+}
+
+#loading {
+	/*display: block;*/
+	margin: auto;
+	display: inline-block;
+	padding-top: 200px;
+	/*height: 50%;*/
+	width: 100%;
+	/*overflow: auto;
+	position: absolute;
+	top:0 ;bottom: 0; left: 0, right: 0;*/
+	
+}
+
+.menu-holder{
+
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 100px;
+	cursor: pointer;
+}
+.menuBtn{
+	margin-top: 20px;
+	font-size: 18px;
+	margin-left: 45px;
+	padding-top: 5px;
+}
+
+.scr{
+	display: inline-block;
+	float: right;
+}
+
+
+button{
+
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 50px;
+	width: 120px;
+
+}
+
+footer{
+	display: block;
+	background: url('../images/block.png') repeat;
+	background-size: 50px 50px;
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+
+}
+
+img{
+	height: 150px;
+}
+
+.hi {
+    width: 150px;
+    height: 200px;
+    background: url("../images/mario.png") left center;
+    background-size:cover;
+    -webkit-animation: marioWalk .7s steps(7) infinite; /* Chrome, Safari, Opera */
+    animation: marioWalk .7s  steps(7) infinite;
+
+ 
+  }
+    
+  
